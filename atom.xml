@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[42fu]]></title>
+  <link href="http://cicloid.github.io/atom.xml" rel="self"/>
+  <link href="http://cicloid.github.io/"/>
+  <updated>2014-01-31T04:45:54-06:00</updated>
+  <id>http://cicloid.github.io/</id>
+  <author>
+    <name><![CDATA[Gustavo Barron]]></name>
+    <email><![CDATA[hello@42fu.com]]></email>
+  </author>
+
+  
+  <entry>
+      
+      
+      
+      
+      
+      <title type="html"><![CDATA[3.0 &infin;]]></title>
+      <link href="https://twitter.com/cicloid/status/429132693134008320"/>
+      <updated>2014-01-31T00:52:21-06:00</updated>
+      <id>http://cicloid.github.io/2014/01/3-dot-0</id>
+  </entry>
+  
+  <entry>
+      
+      
+      
+      
+      
+      <title type="html"><![CDATA[Bunsen para Über Geeks]]></title>
+      <link href="http://cicloid.github.io/2012/03/bunsen-para-ubergeeks/"/>
+      <updated>2012-03-23T12:08:00-06:00</updated>
+      <id>http://cicloid.github.io/2012/03/bunsen-para-ubergeeks</id>
+  </entry>
+  
+  <entry>
+      
+      
+      
+      
+      
+      <title type="html"><![CDATA[Touch typing old-school]]></title>
+      <link href="http://cicloid.github.io/2012/01/touch-typing-old-school/"/>
+      <updated>2012-01-06T00:00:00-06:00</updated>
+      <id>http://cicloid.github.io/2012/01/touch-typing-old-school</id>
+  </entry>
+  
+  <entry>
+      
+      
+      
+      
+      
+      <title type="html"><![CDATA[Miedo a ser autentico]]></title>
+      <link href="http://cicloid.github.io/2011/11/miedo-a-ser-autentico/"/>
+      <updated>2011-11-29T00:00:00-06:00</updated>
+      <id>http://cicloid.github.io/2011/11/miedo-a-ser-autentico</id>
+  </entry>
+  
+  <entry>
+      
+      
+      
+      
+      
+      <title type="html"><![CDATA[Hola Steve]]></title>
+      <link href="http://cicloid.github.io/2011/08/hola-steve/"/>
+      <updated>2011-08-25T00:00:00-05:00</updated>
+      <id>http://cicloid.github.io/2011/08/hola-steve</id>
+  </entry>
+  
+  <entry>
+      
+      
+      
+      
+      
+      <title type="html"><![CDATA[Brand new day]]></title>
+      <link href="http://cicloid.github.io/2011/07/brand-new-day/"/>
+      <updated>2011-07-05T00:00:00-05:00</updated>
+      <id>http://cicloid.github.io/2011/07/brand-new-day</id>
+  </entry>
+  
+</feed>
