@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://cicloid.github.io/sitemap.xml 
+Sitemap: http://www.42fu.com/sitemap.xml 
