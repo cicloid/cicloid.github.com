@@ -3,7 +3,10 @@ layout: default
 single: true
 ---
 
-<article class="post">{% include article.html %}</article>
+{% include post/variables.html %}
+<article class="post" {% if linklog %}data-linklog{% endif %}>
+  {% include article.html %}
+</article>
 {% unless page.sharing == false %}
 	{% include post/sharing.html %}
 {% endunless %}
