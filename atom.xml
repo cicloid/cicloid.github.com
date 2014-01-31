@@ -4,7 +4,7 @@
   <title><![CDATA[42fu]]></title>
   <link href="http://www.42fu.com/atom.xml" rel="self"/>
   <link href="http://www.42fu.com/"/>
-  <updated>2014-01-31T05:09:03-06:00</updated>
+  <updated>2014-01-31T05:17:28-06:00</updated>
   <id>http://www.42fu.com/</id>
   <author>
     <name><![CDATA[Gustavo Barron]]></name>
@@ -12,76 +12,82 @@
   </author>
 
   
-  <entry>
+    <entry>
       
       
       
       
       
+
       <title type="html"><![CDATA[3.0 &infin;]]></title>
       <link href="https://twitter.com/cicloid/status/429132693134008320"/>
       <updated>2014-01-31T00:52:21-06:00</updated>
       <id>http://www.42fu.com/2014/01/3-dot-0</id>
-  </entry>
+    </entry>
   
-  <entry>
+    <entry>
       
       
       
       
       
+
       <title type="html"><![CDATA[Bunsen para Über Geeks]]></title>
       <link href="http://www.42fu.com/2012/03/bunsen-para-ubergeeks/"/>
       <updated>2012-03-23T12:08:00-06:00</updated>
       <id>http://www.42fu.com/2012/03/bunsen-para-ubergeeks</id>
-  </entry>
+    </entry>
   
-  <entry>
+    <entry>
       
       
       
       
       
+
       <title type="html"><![CDATA[Touch typing old-school]]></title>
       <link href="http://www.42fu.com/2012/01/touch-typing-old-school/"/>
       <updated>2012-01-06T00:00:00-06:00</updated>
       <id>http://www.42fu.com/2012/01/touch-typing-old-school</id>
-  </entry>
+    </entry>
   
-  <entry>
+    <entry>
       
       
       
       
       
+
       <title type="html"><![CDATA[Miedo a ser autentico]]></title>
       <link href="http://www.42fu.com/2011/11/miedo-a-ser-autentico/"/>
       <updated>2011-11-29T00:00:00-06:00</updated>
       <id>http://www.42fu.com/2011/11/miedo-a-ser-autentico</id>
-  </entry>
+    </entry>
   
-  <entry>
+    <entry>
       
       
       
       
       
+
       <title type="html"><![CDATA[Hola Steve]]></title>
       <link href="http://www.42fu.com/2011/08/hola-steve/"/>
       <updated>2011-08-25T00:00:00-05:00</updated>
       <id>http://www.42fu.com/2011/08/hola-steve</id>
-  </entry>
+    </entry>
   
-  <entry>
+    <entry>
       
       
       
       
       
+
       <title type="html"><![CDATA[Brand new day]]></title>
       <link href="http://www.42fu.com/2011/07/brand-new-day/"/>
       <updated>2011-07-05T00:00:00-05:00</updated>
       <id>http://www.42fu.com/2011/07/brand-new-day</id>
-  </entry>
+    </entry>
   
 </feed>
