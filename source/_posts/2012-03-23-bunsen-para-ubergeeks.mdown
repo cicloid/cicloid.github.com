@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Bunsen para Über Geeks"
+date: 2012-03-23 12:08
+---
+
+En la vida, existen cosas que alegran la vida, como una cerveza fría. Una cerveza fría en la playa. Una cerveza en la sala. Entre otras tantas posibilidades de situación.
+
+Y a veces mientras tomo mi licuado, me gusta leer [Bunsen](http://www.heroeslocales.com/bunsen/) pero he descubierto que entra en conflicto con una de las virtudes del geek programador. _Lazyness_ es decir, hechar _'la weba'_ así que agradecí cuando Jorge Pinto, libero una [aplicación para iOS](http://itunes.apple.com/mx/app/bunsen/id434555983?mt=8&ls=1) sin embargo, seguían siendo muchos pasos, para ver la ultima tira. Es decir, tenia que alejar mi mano del teclado.
+
+Y solo hago eso para matar a inocentes por Internet o ver a mi mejor mitad.
+
+Así que decidí eliminar intermediarios entre yo y Bunsen, les presento el súper plugin de Bunsen para [Alfred.app](http://www.alfredapp.com/)
+
+Para utilizarla, solo se requiere instalar y teclear bunsen.
+
+![Bunsen y mi desktop](http://img.skitch.com/20120323-rcnas5adpfe9ca8q1ajw5t1ige.jpg "Bunsen in Alfred")     
+
+[Piquele aquí para descargar bunsen para su Alfred.app en la Mac](http://db.tt/At57loWz)
+
+En el futuro, analizaremos formas para conservar mas energía y  recibir nuestras dosis diarias.
+
+Quizás…

@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+{% assign index = true %}
+{% for post in paginator.posts %}
+  {% assign content = post.content %}
+  {% include post/variables.html %}
+  <article {% if linklog %}data-linklog{% endif %}>
+    {% include article.html %}
+  </article>
+{% endfor %}
+
+../
