@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "THE COMPLETE GUIDE TO CENTERING A DIV"
+title: "The complete guide to centering a DIV"
 date: 2014-02-03 08:45:24 -0500
 external-url: http://www.tipue.com/blog/center-a-div/
 ---
