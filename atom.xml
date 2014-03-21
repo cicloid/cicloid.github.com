@@ -4,7 +4,7 @@
   <title><![CDATA[42fu]]></title>
   <link href="http://www.42fu.com/atom.xml" rel="self"/>
   <link href="http://www.42fu.com/"/>
-  <updated>2014-02-03T18:29:34-05:00</updated>
+  <updated>2014-03-21T04:54:06-06:00</updated>
   <id>http://www.42fu.com/</id>
   <author>
     <name><![CDATA[Gustavo Barron]]></name>
@@ -19,9 +19,22 @@
       
       
 
+      <title type="html"><![CDATA[Behind Closed Doors with Alfonso Cuaron &infin;]]></title>
+      <link href="http://vimeo.com/88807674"/>
+      <updated>2014-03-21T04:35:20-06:00</updated>
+      <id>http://www.42fu.com/2014/03/behind-closed-doors-with-alfonso-cuaron</id>
+    </entry>
+  
+    <entry>
+      
+      
+      
+      
+      
+
       <title type="html"><![CDATA[Every story has a name FiftyThree’s story began... &infin;]]></title>
       <link href="http://news.fiftythree.com/post/75486632209/every-story-has-a-name-fiftythrees-story-began?new_url=true"/>
-      <updated>2014-02-03T18:22:40-05:00</updated>
+      <updated>2014-02-03T17:22:40-06:00</updated>
       <id>http://www.42fu.com/2014/02/every-story-has-a-name-fiftythrees-story-began-dot-dot-dot</id>
     </entry>
   
@@ -34,7 +47,7 @@
 
       <title type="html"><![CDATA[The complete guide to centering a DIV &infin;]]></title>
       <link href="http://www.tipue.com/blog/center-a-div/"/>
-      <updated>2014-02-03T08:45:24-05:00</updated>
+      <updated>2014-02-03T07:45:24-06:00</updated>
       <id>http://www.42fu.com/2014/02/the-complete-guide-to-centering-a-div</id>
     </entry>
   
@@ -47,7 +60,7 @@
 
       <title type="html"><![CDATA[How Music Hijacks Our Perception of Time &infin;]]></title>
       <link href="http://nautil.us/issue/9/time/how-music-hijacks-our-perception-of-time"/>
-      <updated>2014-02-02T16:50:08-05:00</updated>
+      <updated>2014-02-02T15:50:08-06:00</updated>
       <id>http://www.42fu.com/2014/02/how-music-hijacks-our-perception-of-time</id>
     </entry>
   
@@ -60,7 +73,7 @@
 
       <title type="html"><![CDATA[3.0 &infin;]]></title>
       <link href="https://twitter.com/cicloid/status/429132693134008320"/>
-      <updated>2014-01-31T01:52:21-05:00</updated>
+      <updated>2014-01-31T00:52:21-06:00</updated>
       <id>http://www.42fu.com/2014/01/3-dot-0</id>
     </entry>
   
@@ -73,7 +86,7 @@
 
       <title type="html"><![CDATA[Bunsen para Über Geeks]]></title>
       <link href="http://www.42fu.com/2012/03/bunsen-para-ubergeeks/"/>
-      <updated>2012-03-23T12:08:00-04:00</updated>
+      <updated>2012-03-23T12:08:00-06:00</updated>
       <id>http://www.42fu.com/2012/03/bunsen-para-ubergeeks</id>
     </entry>
   
@@ -86,7 +99,7 @@
 
       <title type="html"><![CDATA[Touch typing old-school]]></title>
       <link href="http://www.42fu.com/2012/01/touch-typing-old-school/"/>
-      <updated>2012-01-06T00:00:00-05:00</updated>
+      <updated>2012-01-06T00:00:00-06:00</updated>
       <id>http://www.42fu.com/2012/01/touch-typing-old-school</id>
     </entry>
   
@@ -99,7 +112,7 @@
 
       <title type="html"><![CDATA[Miedo a ser autentico]]></title>
       <link href="http://www.42fu.com/2011/11/miedo-a-ser-autentico/"/>
-      <updated>2011-11-29T00:00:00-05:00</updated>
+      <updated>2011-11-29T00:00:00-06:00</updated>
       <id>http://www.42fu.com/2011/11/miedo-a-ser-autentico</id>
     </entry>
   
@@ -112,7 +125,7 @@
 
       <title type="html"><![CDATA[Hola Steve]]></title>
       <link href="http://www.42fu.com/2011/08/hola-steve/"/>
-      <updated>2011-08-25T00:00:00-04:00</updated>
+      <updated>2011-08-25T00:00:00-05:00</updated>
       <id>http://www.42fu.com/2011/08/hola-steve</id>
     </entry>
   
@@ -125,7 +138,7 @@
 
       <title type="html"><![CDATA[Brand new day]]></title>
       <link href="http://www.42fu.com/2011/07/brand-new-day/"/>
-      <updated>2011-07-05T00:00:00-04:00</updated>
+      <updated>2011-07-05T00:00:00-05:00</updated>
       <id>http://www.42fu.com/2011/07/brand-new-day</id>
     </entry>
   
