@@ -3,7 +3,8 @@
     "allow": [
       "Bash(mkdir:*)",
       "WebFetch(domain:docs.github.com)",
-      "WebFetch(domain:pages.github.com)"
+      "WebFetch(domain:pages.github.com)",
+      "Bash(grep:*)"
     ],
     "deny": []
   }
