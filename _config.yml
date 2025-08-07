@@ -1,6 +1,6 @@
 # Site settings
-title: "Gustavo \"Gus\" Barron — Principal Engineer"
-description: "Principal-level engineer. I build reliable systems and ship pragmatic solutions. Links to projects, writing, and contact."
+title: 'Gustavo "Cicloid" Barron — Principal Engineer'
+description: "Señor engineer. I build reliable systems and ship pragmatic solutions. Links to projects, writing, and contact."
 url: "https://42fu.com"
 baseurl: ""
 
@@ -51,3 +51,4 @@ social:
     - https://www.linkedin.com/in/cicloid
     - https://github.com/cicloid
     - https://twitter.com/cicloid
+
