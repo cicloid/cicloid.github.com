@@ -1,7 +1,7 @@
 # Site settings
 title: 'Gustavo "Cicloid" Barron — Principal Engineer'
 description: "Señor engineer. I build reliable systems and ship pragmatic solutions. Links to projects, writing, and contact."
-url: "https://42fu.com"
+url: "https://www.42fu.com"
 baseurl: ""
 
 # Author information
@@ -11,6 +11,7 @@ author:
   linkedin: "cicloid"
   github: "cicloid"
   twitter: "cicloid"
+  description: "Señor engineer. I build reliable systems and ship pragmatic solutions."
 
 # Build settings
 markdown: kramdown
@@ -51,4 +52,3 @@ social:
     - https://www.linkedin.com/in/cicloid
     - https://github.com/cicloid
     - https://twitter.com/cicloid
-

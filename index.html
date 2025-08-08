@@ -26,10 +26,8 @@ layout: default
   </div>
 
   <header aria-labelledby="intro">
-    <h1 id="intro" class="name">Gustavo "Cicloid" Barron</h1>
-    <div class="title">
-      Señor Engineer • Distributed systems • Cloud • Reliability
-    </div>
+    <h1 id="intro" class="name">{{ site.author.name }}</h1>
+    <div class="title">{{ site.author.description }}</div>
     <div class="tag">Online since '94. I make distributed systems boring.</div>
   </header>
 
@@ -91,7 +89,7 @@ layout: default
   <nav class="cards" aria-label="Links to other projects">
     <a
       class="card"
-      href="https://github.com/cicloid"
+      href="https://github.com/{{ site.author.github }}"
       target="_blank"
       rel="noopener"
       aria-label="GitHub profile"
@@ -129,7 +127,7 @@ layout: default
 
     <a
       class="card"
-      href="https://www.linkedin.com/in/cicloid"
+      href="https://www.linkedin.com/in/{{ site.author.linkedin }}"
       target="_blank"
       rel="me noopener"
       aria-label="LinkedIn profile"
@@ -175,10 +173,10 @@ layout: default
   </nav>
 
   <footer>
-    <span>© <span id="y">2025</span> Gustavo Barron</span>
+    <span>© <span id="y">2025</span> {{ site.author.name }}</span>
     <div class="social" aria-label="Social links">
       <a
-        href="https://www.linkedin.com/in/cicloid"
+        href="https://www.linkedin.com/in/{{ site.author.linkedin }}"
         aria-label="LinkedIn"
         rel="me noopener"
         target="_blank"
@@ -190,7 +188,7 @@ layout: default
         </svg>
       </a>
       <a
-        href="https://github.com/cicloid"
+        href="https://github.com/{{ site.author.github }}"
         aria-label="GitHub"
         rel="me noopener"
         target="_blank"
@@ -202,7 +200,7 @@ layout: default
         </svg>
       </a>
       <a
-        href="https://x.com/cicloid"
+        href="https://x.com/{{ site.author.twitter }}"
         aria-label="X"
         rel="me noopener"
         target="_blank"
@@ -214,7 +212,9 @@ layout: default
         </svg>
       </a>
     </div>
-    <span>Mexico • <a href="mailto:hi@42fu.com">hi@42fu.com</a></span>
+    <span
+      >Mexico •
+      <a href="#" id="email-link" data-user="hi" data-domain="42fu.com">Contact</a></span
+    >
   </footer>
 </main>
-

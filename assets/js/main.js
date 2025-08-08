@@ -5,6 +5,21 @@
   } catch(_) {}
 })();
 
+// Email obfuscation (anti-spam protection)
+(function(){
+  try {
+    var emailLink = document.getElementById('email-link');
+    if (emailLink) {
+      var user = emailLink.getAttribute('data-user');
+      var domain = emailLink.getAttribute('data-domain');
+      var email = user + '@' + domain;
+      emailLink.href = 'mailto:' + email;
+      emailLink.textContent = email;
+      emailLink.setAttribute('aria-label', 'Send email to ' + email);
+    }
+  } catch(_) {}
+})();
+
 // Rolling circle cycloid (no-slip)
 (function(){
   var reduce = false; 
