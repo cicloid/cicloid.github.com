@@ -16,41 +16,59 @@
   var svg = document.getElementById('cycloid-svg'); 
   if(!svg) return;
   
-  var W = 800, baseY = 64, r = 16, speed = 120; // px/s
+  // Get actual SVG dimensions for responsive animation
+  function getAnimationParams() {
+    var rect = svg.getBoundingClientRect();
+    var viewBox = svg.viewBox.baseVal;
+    
+    // Use viewBox dimensions for consistent mathematical calculations
+    var W = viewBox.width;  // 800
+    var H = viewBox.height; // 72
+    var baseY = H - 8;      // baseline position
+    var r = 16;             // wheel radius (constant for proper circle)
+    
+    // Adjust speed proportionally to actual width
+    var scaleFactor = rect.width / W;
+    var speed = 120 * Math.max(0.5, scaleFactor); // px/s, minimum speed
+    
+    return { W: W, H: H, baseY: baseY, r: r, speed: speed };
+  }
+  
+  var params = getAnimationParams();
   var wheel = document.getElementById('wheel');
   var traceDot = document.getElementById('trace-dot');
   var tracePath = document.getElementById('cycloid-trace');
 
-  // Generate ticks
+  // Generate ticks using responsive parameters
   var ticks = document.getElementById('ticks'), ns = 'http://www.w3.org/2000/svg';
   if (ticks) {
     while (ticks.firstChild) ticks.removeChild(ticks.firstChild);
     var frag = document.createDocumentFragment();
-    var step = Math.PI * r; // πr = half-turn
-    for (var k = 0, x = 0; x <= W + r; k++, x = k * step) {
+    var step = Math.PI * params.r; // πr = half-turn
+    for (var k = 0, x = 0; x <= params.W + params.r; k++, x = k * step) {
       var line = document.createElementNS(ns, 'line');
       var major = (k % 2 === 0); // even multiples => 0, 2πr, 4πr ... cusps
       line.setAttribute('class', major ? 'tick-major' : 'tick-minor');
       line.setAttribute('x1', x.toFixed(2));
       line.setAttribute('x2', x.toFixed(2));
-      line.setAttribute('y1', baseY);
-      line.setAttribute('y2', major ? (baseY - 10) : (baseY - 5));
+      line.setAttribute('y1', params.baseY);
+      line.setAttribute('y2', major ? (params.baseY - 10) : (params.baseY - 5));
       frag.appendChild(line);
     }
     ticks.appendChild(frag);
   }
 
-  // Cycloid parametric equations
+  // Cycloid parametric equations using responsive parameters
   function P(t){ 
     return { 
-      x: r * (t - Math.sin(t)), 
-      y: baseY - r * (1 - Math.cos(t)) 
+      x: params.r * (t - Math.sin(t)), 
+      y: params.baseY - params.r * (1 - Math.cos(t)) 
     }; 
   }
   function C(t){ 
     return { 
-      x: r * t, 
-      y: baseY - r 
+      x: params.r * t, 
+      y: params.baseY - params.r 
     }; 
   }
 
@@ -59,7 +77,7 @@
   function frame(now){
     var dt = (now - last) / 1000; 
     last = now; 
-    var omega = speed / r; 
+    var omega = params.speed / params.r; 
     theta += omega * dt;
     
     var c = C(theta), p = P(theta);
@@ -74,7 +92,7 @@
     else pathData += ' L ' + p.x.toFixed(2) + ' ' + p.y.toFixed(2);
     tracePath.setAttribute('d', pathData);
 
-    if(p.x > W + r){ 
+    if(p.x > params.W + params.r){ 
       theta = 0; 
       pathData = ''; 
     } // reset when off-screen
@@ -82,5 +100,32 @@
     requestAnimationFrame(frame);
   }
   
+  // Handle window resize to maintain proper animation
+  var resizeTimeout;
+  function handleResize() {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(function() {
+      params = getAnimationParams();
+      // Regenerate ticks for new dimensions
+      if (ticks) {
+        while (ticks.firstChild) ticks.removeChild(ticks.firstChild);
+        var frag = document.createDocumentFragment();
+        var step = Math.PI * params.r;
+        for (var k = 0, x = 0; x <= params.W + params.r; k++, x = k * step) {
+          var line = document.createElementNS(ns, 'line');
+          var major = (k % 2 === 0);
+          line.setAttribute('class', major ? 'tick-major' : 'tick-minor');
+          line.setAttribute('x1', x.toFixed(2));
+          line.setAttribute('x2', x.toFixed(2));
+          line.setAttribute('y1', params.baseY);
+          line.setAttribute('y2', major ? (params.baseY - 10) : (params.baseY - 5));
+          frag.appendChild(line);
+        }
+        ticks.appendChild(frag);
+      }
+    }, 250);
+  }
+  
+  window.addEventListener('resize', handleResize);
   requestAnimationFrame(frame);
 })();

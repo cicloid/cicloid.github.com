@@ -11,8 +11,12 @@ body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,
 a{color:inherit;text-decoration:none} a:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:6px}
 .wrapper{max-width:720px;margin:0 auto;padding:32px 20px 24px;display:grid;gap:20px}
 /* Cycloid banner */
-.cycloid{width:100%;height:72px;overflow:hidden}
-.cycloid svg{width:100%;height:100%}
+.cycloid{width:100%;height:72px;overflow:hidden;position:relative}
+.cycloid svg{width:100%;height:100%;display:block}
+/* Responsive height scaling for mobile */
+@media (max-width: 480px) {
+  .cycloid{height:clamp(60px, 15vw, 72px)}
+}
 .baseline,.tick{stroke:var(--card-border);stroke-width:1;vector-effect:non-scaling-stroke}
 .trace{stroke:var(--accent);stroke-width:1.6;fill:none;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
 .wheel{stroke:var(--accent);stroke-width:1.6;fill:none;vector-effect:non-scaling-stroke}
